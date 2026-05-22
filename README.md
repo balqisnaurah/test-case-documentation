@@ -1,10 +1,26 @@
 # Test Case Documentation
 
-Dokumentasi test case dan UAT checklist untuk pengujian aplikasi web toko online. Mencakup pengujian modul autentikasi (login, registrasi) dan modul transaksi (checkout).
+Dokumentasi test case, test plan, dan UAT checklist untuk pengujian aplikasi web toko online. Mencakup strategi pengujian end-to-end mulai dari perencanaan hingga eksekusi.
 
 ---
 
 ## Daftar File
+
+### `TEST_PLAN.md`
+
+Dokumen perencanaan pengujian yang menjelaskan strategi dan pendekatan QA secara menyeluruh.
+
+**Isi Test Plan:**
+- Ruang lingkup pengujian (in scope dan out of scope)
+- Jenis pengujian (functional, UI, API, security, compatibility)
+- Test environment dan tools yang digunakan
+- Entry criteria dan exit criteria
+- Identifikasi risiko dan mitigasi
+- Skedul pengujian per fase
+- Tim dan tanggung jawab
+- Deliverables yang dihasilkan
+
+---
 
 ### `TC_Login.md`
 
@@ -63,6 +79,18 @@ User Acceptance Testing checklist yang merangkum hasil pengujian seluruh modul.
 
 ---
 
+## Alur Dokumentasi QA
+
+```
+TEST_PLAN.md
+    ↓
+TC_Login.md + TC_Register.md + TC_Checkout.md
+    ↓
+UAT_Checklist.md
+```
+
+---
+
 ## Total Test Case
 
 | Modul | Jumlah Test Case |
@@ -74,7 +102,7 @@ User Acceptance Testing checklist yang merangkum hasil pengujian seluruh modul.
 
 ---
 
-## Format Dokumentasi
+## Format Dokumentasi Test Case
 
 Setiap test case mencakup:
 
@@ -91,4 +119,4 @@ Setiap test case mencakup:
 
 ## Tentang
 
-Proyek ini dibuat sebagai bagian dari proses belajar Quality Assurance, khususnya dalam merancang dan mendokumentasikan test case. Mencakup pengujian fungsional, validasi input, dan pengujian keamanan dasar (SQL injection, XSS) yang umum dilakukan dalam siklus QA.
+Proyek ini dibuat sebagai bagian dari proses belajar Quality Assurance, khususnya dalam merancang strategi pengujian dan mendokumentasikan test case. Mencakup perencanaan QA (test plan), eksekusi pengujian fungsional, validasi input, pengujian keamanan dasar (SQL injection, XSS), dan UAT yang merupakan praktik standar dalam siklus QA.
